@@ -12,7 +12,9 @@
     
     <div class="demo">
     <iframe width="560" height="315" src="https://www.youtube.com/embed/3L-8UKhwJ04?si=lZ_p4vhpqKqxiF69" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
- 
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/3L-8UKhwJ04?si=lZ_p4vhpqKqxiF69" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    
+    
     </div>
 
     <div class="wrapper">
@@ -26,6 +28,13 @@
         <div id="home">
             <section class="content">
                 <h1>ELK JIMS</h1>
+                <P>Empowering Digital Excellence through Innovative Solutions and Customized Web and App Development
+                    <br> 
+                    <br>
+                    
+                    <img src="images/Screenshot_20200710-085124.png" alt="elkjims(levis droidcode)" width="150" height="100" border-radius="50%" object-fit="cover">
+                </P>
+                
             </section>
         </div>
         <div id="about">
@@ -53,9 +62,23 @@
         <section class="content">
             <h1>Contact</h1>
             <p>
-                <li>Email: info@elkjims.com</li>
-                <li>Phone: +254111483218</li>
-                <li>Address: Nairobi, Kenya</li>
+                <li style="color: azure;">Email: info@elkjims.com</li>
+                <li style="color: azure;">Phone: +254111483218</li>
+                <li style="color: azure;">Address: Nairobi, Kenya</li>
+
+                <br>
+                <form action="send_email.php" method="post">
+                    <label for="name">Name:</label><br>
+                    <input type="text" id="name" name="name" required><br><br>
+
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email" required><br><br>
+
+                    <label for="message">Message:</label><br>
+                    <textarea id="message" name="message" rows="4" required></textarea><br><br>
+
+                    <input type="submit" value="Submit">
+                </form>
                 
             
             </p>
